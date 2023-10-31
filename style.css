@@ -1,0 +1,17 @@
+#titulo{
+    color:darkmagenta;
+    font-size: 5px;
+}
+
+#vamos{
+    font-family: 'Franklin Gothic Medium';
+    color: crimson;
+    font-size: 30;
+}    
+
+#nomb_usuario{
+    width: 500px;
+}
+#iniciar{
+    width: 200px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kwitter-salas</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    
+        <link rel="stylesheet" href="style-salas.css">
+    </head>
+    <body>
+        
+        <center>
+        <div id="titulo">
+            <button id="Salir" onclick="Salir();" class="glyphicon glyphicon-log-out btn btn-warning">  Salir</button>
+
+            <img src="Logo2.png" width="150">
+            <h2>Vamos a Chatear</h2>
+        </div>
+        <div>
+            <h3 id="hola"></h3>
+        </div>
+        <div>
+            <label class="form-group" >#Crea una sala</label>
+            <input type="text" class="form-control" placeholder="#Nombre de la sala" id="Sala">
+            <br><br>
+            <button class="btn btn-success" onclick="CrearSala()">Crear Sala</button>
+        </div>
+        <h3 class="color_white">#SALASDETENDENCIA</h3>
+        <div id="MostrarMsj"></div>
+        </center>
+
+        <script src="salas.js"></script>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+body{
+    
+    margin-left: 40px;
+    width: 95%;
+}
+#titulo{
+    margin-top: 0px;
+    background-color: rgb(191, 165, 214);
+    color: rgb(135, 11, 36);
+    font-family: Lucida sans;
+}
+
+#salida
+{
+	font-size: 20px; float: right;
+}
+
+.div_msj-salida{
+    position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.div_msj-salida button{
+    margin-top: 15px;
+	width: 50%;
+}
+
+.div_msj-salida label{
+    color: rgb(115, 115, 174);
+    font-size: 20px;
+}
+
+#MostrarMsj{
+
+    background-color: rgb(191, 165, 214);
+    color: rgb(0, 119, 255);
+    padding: 10px;
+	width: 80%;
+	border-radius: 15px;
+}
+.user_tick {
+	width: 20px;
+}
+
+.message_h4 {
+	padding-left: 5px;
+	color: grey;
+}

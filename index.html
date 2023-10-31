@@ -1,0 +1,45 @@
+<<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>rejillasBootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+  </head>
+  <body>
+
+    <div class="jumbotron text-center" id="titulo">
+      <img src="Logo2.png" width="150">
+      <h2><b>Kwitter</b></h2> 
+    </div>
+
+  
+    <div class="row">
+   
+      <div class="col-sm-6">
+        <img src="dibujo.png" width="550">
+      </div>
+      <div class="col-sm-6" id="col2">
+        <h2 id="Vamos">Vamos a chatear</h2>
+        <img src="Logo2.png" width="100" >
+        <br><br>
+        <h3> <b>Inicio de sesion</b></h3>
+        <label >Nombre de usurio: </label>
+        <input type="text" id="nomb_usuario" placeholder="Escribe nombre de usurio">
+        <br><br>
+        &nbsp;<button class="btn btn-success"  onclick="InicioSesion()" id="iniciar">Iniciar</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
